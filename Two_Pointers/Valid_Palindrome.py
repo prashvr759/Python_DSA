@@ -3,14 +3,11 @@ def valid_palindrome(input_array):
   last = len(input_array)-1
 
   while first < last:
-    if len(input_array)=1:
+    if input_array[first]!=input_array[last]:
       return false
+      
+    first = first+1
+    last = last-1    
 
-    if input_array[first]==input_array[last]:
-      first = first++
-      last = last--
-    else
-      return false
-
-return true
+  return true
     
