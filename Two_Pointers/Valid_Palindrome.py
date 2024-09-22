@@ -1,11 +1,11 @@
-// O(N^2) Time
+# O(N^2) Time
 def bruteforce_valid_palindrome(input_array):
 
   
 
 
 
-// O(N) Time & O(1) Space Complexity Solution. However, our algorithm will only run (n/2) times, since two pointers are traversing toward each other.
+# O(N) Time & O(1) Space Complexity Solution. However, our algorithm will only run (n/2) times, since two pointers are traversing toward each other.
 def valid_palindrome(input_array):
   first = 0
   last = len(input_array)-1
