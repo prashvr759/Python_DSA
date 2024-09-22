@@ -32,4 +32,5 @@ def three_sum(s,total_sum):
 def main():
 
 
-__last
+if __name__ == '__main__':
+    main()
