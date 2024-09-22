@@ -30,6 +30,10 @@ def three_sum(s,total_sum):
   return True
   
 def main():
+  s  = [1,4,8,3,20,6]
+  target = 13
+  three_sum(s,target)
+  
 
 
 if __name__ == '__main__':
