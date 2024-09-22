@@ -34,7 +34,5 @@ def main():
   target = 13
   three_sum(s,target)
   
-
-
 if __name__ == '__main__':
     main()
